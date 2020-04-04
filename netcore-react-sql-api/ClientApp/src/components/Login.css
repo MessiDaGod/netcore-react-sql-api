@@ -1,55 +1,3 @@
-/*********>> Default Settings <<**********/
-body
-{
-    margin: 0px;
-    padding: 0px;
-    font: normal 12px arial;
-    color: #575757;
-    line-height: 18px;
-    background-color: #e0e0e0;
-	height:100%
-}
-body a:link, body a:visited
-{
-    font: normal 12px arial;
-    color: #575757;
-    text-decoration: underline;
-    text-align: left;
-    cursor: pointer;
-    outline: none;
-}
-body a:hover
-{
-    font: normal 12px arial;
-    color: #575757;
-    text-decoration: none;
-    text-align: left;
-    cursor: pointer;
-    outline: none;
-}
-
-/************>> Common <<*************/
-ul, li
-{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-/* p
-{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-} */
-
-/************>> Page Structure <<*************/
-#outerdiv
-{
-	width:100%; 
-	margin:0px auto; 
-	text-align:center;
-}
 #wrapper
 {
     margin: 0px;
@@ -57,10 +5,6 @@ ul, li
     height: 100%;
 }
 
-.bgimg
-{
-    background-color: #e0e0e0;
-}
 #innerwrapper
 {
     width: 1000px;
@@ -68,24 +12,17 @@ ul, li
     margin: 0 auto;
     padding-top: 11%;
 }
-#logocontainer
-{
-    margin-top: 75px;
-    margin-bottom: 50px;
-    text-align: center;
-}
+
 #logincontainer
 {
     width: 894px;
     margin: 0 auto;
     min-height: 350px;
 }
-
-.loginshadow
+.columnwidth46
 {
-    margin: 0 auto;
-    background: url(/public/img/login_shadow.png) no-repeat top;
-    height: 305px;
+    width: 46%;
+    float: left;
 }
 #ctmcontentcontainer
 {
@@ -131,127 +68,3 @@ ul, li
     -webkit-box-shadow: inset 1px 1px 4px #888888;
     box-shadow: inset 1px 1px 4px #888888;
 }
-.margintop80
-{
-    margin-top: 80px;
-}
-.marginleft50
-{
-    margin-left: 50px;
-}
-.container_lft
-{
-    min-height: 200px;
-    width: 52%;
-    float: left;
-    /*margin-top: 70px;*/
-    margin-left: 10px;
-}
-.logintext
-{
-    font: normal 12px arial;
-    color: #666666;
-    line-height: 1.5;
-    text-align: right;
-    padding-right: 30px;
-}
-.directional
-{
-    background: #cccccc url(/public/img/login_mask.png) no-repeat;
-	height:400px;
-}
-.directional-logoff
-{
-    /* background: #cccccc url(/public/img/login_mask.png) no-repeat; */
-	height:350px;
-}
-input, textarea, select
-{
-    -webkit-appearance: none;
-    margin: 0px;
-}
-.loginformbutton
-{
-    border: none !important;
-    font: bold 14px arial !important;
-}
-
-input[type=submit]
-{
-    width: 100% !important;
-    float: left;
-    cursor: pointer;
-    margin-top: 5px;
-}
-#ctmcontentcontainer ul li span.arrow
-{
-    /* background: url(/public/img/button-arrow.png) no-repeat top left; */
-    position: absolute;
-    width: 21px;
-    height: 21px;
-    margin-left: 317px;
-    margin-top: 12px;
-    margin-top: 5px!;
-    z-index: 5;
-}
-/************>> Global Classes <<*************/
-.divcenter
-{
-    margin: -100px auto 0;
-}
-* html .clearfix
-{
-    height: 1%;
-}
-* + html .clearfix
-{
-    display: inline-block;
-}
-.clearfix:after
-{
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}
-.columnwidth46
-{
-    width: 46%;
-    float: left;
-}
-
-/**** COLORS THAT WILL CHANGE BASED ON THEME****/
-.loginformbutton
-{
-    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#87bdf3', EndColorStr='#0015cf');
-    background-color: #0015cf;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1565a7), to(#0015cf)); /* Saf4+, Chrome */
-    background-image: -webkit-linear-gradient(top, #87bdf3, #0015cf); /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: -moz-linear-gradient(top, #1565a7, #0015cf); /* FF3.6 */
-    background-image: -ms-linear-gradient(top, #1565a7, #0015cf); /* IE10 */
-    background-image: -o-linear-gradient(top, #1565a7, #0015cf); /* Opera 11.10+ */
-    /* background-image: linear-gradient(top, #1565a7, #0015cf); */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#1565a7', EndColorStr='#0015cf'); /* IE6–IE9 */
-    color: #ffffff !important;
-}
-
-.client-logo {
-    /*margin-left: 128px;*/
-    padding-top: 36px;
-    height: 34px;
-}
-
-.sex {
-    position: relative;
-    /* height: 1000px;
-    min-height: 500px;
-    width: 100%; */
-    z-index: 100;
-    background: url(/public/img/sex.gif) no-repeat top center !important;
-    background-size: cover !important;
-   -webkit-background-size: cover !important;
-    /* text-align: center;
-    overflow: hidden; */
-  }
-  
